@@ -1,0 +1,12 @@
+{
+  "name": "nodejstutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FIleHandling.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node FIleHandling.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

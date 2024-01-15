@@ -1,0 +1,24 @@
+GET /users - list all users -- HTML document render
+GET /api/users - list all users -- List all users JSON for mobile applications
+
+
+GET /api/users/1 - Get the user with id equal to 1
+GET /api/users/2 - Get the user with id equal to 2
+
+POST /api/users - create new user
+
+PATCH /api/users/1 - edit the user with id equal to 1
+
+DELETE /api/users/1 - Delete the user with id equal to 1
+
+// if there is api at the starting, it will throw the json data,
+// else it will throw the HTML document. this was we're creating hybrid server. 
+
+
+//---------------------------------------------------------
+mongodb:-
+
+schema - define the structure
+    schema - model
+    using model we do CRUD operations
+    
