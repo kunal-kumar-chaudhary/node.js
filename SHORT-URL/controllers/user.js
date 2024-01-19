@@ -25,9 +25,9 @@ async function handleUserLogin(req, res){
 
     }
     // if password and email matches then we will create a session for the user
-    const sessionId = uuidv4();
-    setUser(sessionId, user);
-    res.cookie("uid", sessionId);
+    
+    const token = setUser(user);
+    res.cookie("uid", token);
     return res.redirect("/");
 }
 
